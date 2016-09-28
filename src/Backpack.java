@@ -16,8 +16,11 @@ public class Backpack {
 		Ruler ruler = new Ruler();
 		Textbook textbook = new Textbook();
 		backpack.putInBackpack(pencil);
+		pencil.write("You can write with your pencil!");
 		backpack.putInBackpack(ruler);
+		ruler.measure();
 		backpack.putInBackpack(textbook);
+		textbook.read();
         backpack.goToSchool();
 	}
 	
@@ -66,7 +69,7 @@ class Ruler extends Supply {
 
 	Ruler(){
 		this.name = "ruler";
-		System.out.println("You found your ruler!!");
+		System.out.println("You found your ruler!");
 	}
 	
 	public void measure(){
