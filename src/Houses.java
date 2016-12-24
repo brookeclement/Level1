@@ -22,7 +22,7 @@ public class Houses {
 			g = new Random().nextInt(256);
 			b = new Random().nextInt(256);
 			num = new Random().nextInt(500);
-			// passColor = new Color((float) r, (float) g, (float) b);
+			passColor = new Color((float) r, (float) g, (float) b);
 			pointyRoof(num, Color.blue);
 			r = new Random().nextInt(256);
 			g = new Random().nextInt(256);
